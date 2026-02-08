@@ -1,106 +1,24 @@
-E-Commerce Order & Revenue Analytics for Business Growth
-Project Overview
-
-This project analyzes e-commerce order and transaction data to help a business understand sales performance, customer behavior, and operational inefficiencies. The analysis focuses on transforming raw transactional data into actionable business intelligence that supports data-driven decision-making.
-
-The project combines exploratory data analysis, customer behavior assessment, revenue and refund evaluation, and discount impact analysis to uncover patterns that influence profitability and operational efficiency.
+**E-Commerce Order & Revenue Analytics for Business Growth**
+***Project Overview***
+This project involves a comprehensive analysis of e-commerce transactional data aimed at helping businesses decode complex sales patterns and operational inefficiencies. By transforming raw order data into actionable intelligence, this study provides a roadmap for enhancing profitability through data-driven decision-making. The scope of work encompasses exploratory data analysis, revenue and refund evaluation, and a deep dive into how discount strategies influence customer behavior.
 
 Project Objectives
-
-The main objectives of this analysis are to use data to:
-
-Understand sales and revenue trends over time
-
-Identify high-performing and underperforming product categories
-
-Analyze customer purchasing behavior and repeat purchase patterns
-
-Evaluate refund and cancellation behavior and associated revenue loss
-
-Support pricing, discount, and inventory decision-making
+The primary goal is to evaluate sales and revenue trends over a specific temporal range while identifying the product categories that drive the most value. Beyond simple sales tracking, the project seeks to analyze the financial impact of cancellations and refunds to mitigate revenue loss. Ultimately, the findings are designed to support executive-level decisions regarding pricing models, discount thresholds, and inventory management.
 
 Dataset Description
+The analysis is performed on a dataset containing 3,000 transactional records. Each record includes critical features such as Order ID and Customer ID for tracking, Product Category and Order Value for financial assessment, and Discount Applied to measure promotional impact. Furthermore, the data captures Payment Methods, Order Dates, Regional locations, and the final Order Status—categorized as Completed, Cancelled, or Refunded.
 
-The dataset contains e-commerce transactional records with the following features:
+Analytical Workflow
+The project follows a rigorous data science pipeline beginning with extensive data cleaning, validation, and regional median imputation for missing values. This is followed by an exploratory phase focusing on sales trends and product performance. The core of the analysis involves a segmented assessment of refund behaviors and the correlation between applied discounts and revenue leakage. Finally, temporal trends are mapped to identify peak purchasing windows, supplemented by a regional performance audit.
 
-Order ID
-
-Customer ID
-
-Product Category
-
-Order Value
-
-Discount Applied
-
-Payment Method
-
-Order Date
-
-Region (location-level)
-
-Order Status (Completed, Cancelled, Refunded)
-
-Key Analytical Tasks
-
-The project covers the following analytical steps:
-
-Data cleaning, validation, and preprocessing
-
-Exploratory analysis of sales and revenue trends
-
-Product category performance analysis
-
-Refund and revenue loss assessment
-
-Discount impact analysis on sales and refunds
-
-Regional and payment method performance analysis
-
-Customer behavior analysis (including repeat purchase patterns)
-
-Identification of seasonal and temporal trends
-
-(Optional) Basic sales trend forecasting
-
-Deliverables
-
-The project includes the following deliverables:
-
-Cleaned and processed dataset
-
-Jupyter Notebook(s) containing the full analysis
-
-Visualizations and charts illustrating key findings
-
-A structured business insights report
-
-Data-driven business and discount optimization recommendations
+Project Deliverables
+The repository includes a fully cleaned and preprocessed version of the dataset ready for modeling. It features a detailed Jupyter Notebook containing the end-to-end Python code, accompanied by a suite of high-impact visualizations and charts. The final output is a structured business insights report that provides specific, data-backed recommendations for discount optimization and risk control.
 
 Tools and Technologies
+The technical stack utilized for this project is centered on the Python data science ecosystem. Pandas and NumPy were employed for robust data manipulation and numerical operations. For data visualization, Matplotlib and Seaborn were used to create intuitive graphical representations of the findings. The entire analysis was documented and executed within the Jupyter Notebook environment.
 
-Python
+Primary Business Insights
+The investigation revealed that while certain categories like Home and Beauty drive strong completed-order revenue, categories such as Fashion contribute disproportionately to financial losses through high refund rates. It was also determined that discounts act as a volume driver but simultaneously elevate the risk of revenue leakage. Additionally, the data showed significant variance in profitability across different payment methods and regions, with a clear concentration of customer activity during weekdays.
 
-Pandas
-
-NumPy
-
-Matplotlib / Seaborn
-
-Jupyter Notebook
-
-Key Business Insights
-
-Certain product categories generate strong completed-order revenue, while others contribute disproportionately to refunds
-
-Discounts increase transaction volume but also elevate refund-related revenue losses
-
-Payment methods and regions exhibit varying levels of risk and profitability
-
-Customer activity is higher during weekdays, indicating clear temporal purchasing patterns
-
-
-Author
-
-Odunola Akimu 
-Chemical Engineer | Data Scientist
+About the Author
+Odunola Akimu Chemical Engineer | Data Scientist
